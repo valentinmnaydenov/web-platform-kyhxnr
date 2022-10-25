@@ -1,31 +1,129 @@
- /* NAVBAR STYLING STARTS */
-.navbar {
-  display: flex;
+ 
+  
+  .first_page {
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-top: 2rem;
+  
+    padding: 10px;
+  }
+  .second_page {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 5rem;
+    margin-right: 5rem;
+  }
+  
+  .navbar {
+    display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 20px;
   background-color:none;
   color:#445964;
- }
- /* LOGO */
- .logo {
-  font-size:32px;
- }
- /* NAVBAR MENU */
- .menu {
-  display: flex;
-  gap: 1em;
-  font-size: 12px;
- }
-h1 {
- font-family: Roboto, sans-serif;
- font-size: 20px;
-}
-nav ul {
-  list-style-type: none;
-  font-family: Roboto, sans-serif;
-  font-size:10px;
+  }
+  nav ul {
+    list-style-type: none;
+    font-family: Roboto, sans-serif;
+    font-size:20px;
+  
+  }
 
-}
+  .name {
+    text-decoration: none;
+    font-family: 'Roboto';
+    font-style: Black;
+    font-size: 36px;
+    color: #445964;
+  
+    line-height: 100%;
+  
+    vertical-align: Top;
+  }
+  
+  .button {
+    font-family: 'Roboto';
+    font-style: Medium;
+    font-size: 20px;
+    line-height: 100%;
+    color: #445964;
+    text-decoration: none;
+    vertical-align: Top;
+  }
+  .icn {
+    width: 12%;
+  }
+  
+  main {
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+  
+  .text {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 310px;
+    height: 65px;
+    background: #263138;
+    border-radius: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 28px;
+    border: none;
+    cursor: pointer;
+    color: #ffffff;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  }
+  
+  .first-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  
+    color: #445964;
+  }
+  
+  .second-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 84px;
+  
+    color: #445964;
+  }
+  .third-p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+  
+    color: #445964;
+  }
 
-
+  
+  .links img {
+    margin-right: 1rem;
+    width: 5%;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  
+  
