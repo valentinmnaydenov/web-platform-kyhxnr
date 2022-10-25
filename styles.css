@@ -1,0 +1,31 @@
+ /* NAVBAR STYLING STARTS */
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color:none;
+  color:#445964;
+ }
+ /* LOGO */
+ .logo {
+  font-size:32px;
+ }
+ /* NAVBAR MENU */
+ .menu {
+  display: flex;
+  gap: 1em;
+  font-size: 12px;
+ }
+h1 {
+ font-family: Roboto, sans-serif;
+ font-size: 20px;
+}
+nav ul {
+  list-style-type: none;
+  font-family: Roboto, sans-serif;
+  font-size:10px;
+
+}
+
+
